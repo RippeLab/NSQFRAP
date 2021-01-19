@@ -1,0 +1,13 @@
+INSTALLATION
+Install the package with the following command:
+install.packages ('./DownloadFolder/NSQFRAP_1.1.tar.gz', repos = NULL, type = "source")
+
+EXAMPLE WORKFLOW
+Example scripts for a complete workflow comprising image segmentation, tracking, manual annotation and correction, and fitting of off-spot and on-spot recovery curves are provided with the package. They can be found using the following command:
+paste0(find.package('NSQFRAP'),'/demo/')
+
+EXAMPLE DATA
+FRAP image series for GFP-LacI (on- and off-spot) are located in the package directory. They are used by the example scripts. They can be found by the following command:
+paste0(find.package('NSQFRAP'),'/extdata/')
+
+
