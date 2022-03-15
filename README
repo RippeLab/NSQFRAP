@@ -1,4 +1,5 @@
 INSTALLATION
+Download the Release containing the .tar.gz file 
 Install the package with the following command:
 install.packages ('./DownloadFolder/NSQFRAP_1.1.tar.gz', repos = NULL, type = "source")
 
